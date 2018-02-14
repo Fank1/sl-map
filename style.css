@@ -1,0 +1,167 @@
+ 
+/* Typsnitt*/ 
+
+@font-face {
+    font-family: 'TeXGyreHeros-Regular';
+    src: url('fonts/texgyreheros-regular-webfont.eot');
+    src: url('fonts/texgyreheros-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/texgyreheros-regular-webfont.woff') format('woff'),
+         url('fonts/texgyreheros-regular-webfont.ttf') format('truetype'),
+         url('fonts/texgyreheros-regular-webfont.svg#texgyreherosregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'TeXGyreHeros-Bold';
+    src: url('fonts/texgyreheros-bold-webfont.eot');
+    src: url('fonts/texgyreheros-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/texgyreheros-bold-webfont.woff') format('woff'),
+         url('fonts/texgyreheros-bold-webfont.ttf') format('truetype'),
+         url('fonts/texgyreheros-bold-webfont.svg#texgyreherosbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+ /* Från SVG:en */ 
+
+    .Grafikformat_x0020_3{fill:none;}
+    .Grafikformat_x0020_4{fill:none;}
+    .st0{fill:#1F2326;}
+    .st1{fill:none;stroke:#009245;stroke-width:16.5;stroke-linecap:round;stroke-miterlimit:10;}
+    .st2{fill:none;stroke:#39B54A;stroke-width:16.5;stroke-linecap:round;stroke-miterlimit:10;}
+    .st3{fill:none;stroke:#006837;stroke-width:16.5;stroke-linecap:round;stroke-miterlimit:10;}
+    .st4{fill:#2C3236;stroke:#1F2326;stroke-width:5;stroke-miterlimit:10;}
+    .st5{fill:#1F2326;stroke:#1F2326;stroke-width:4.5;stroke-miterlimit:10;}
+    .st6{fill:#1F2326;stroke:#1F2326;stroke-width:1.5;stroke-miterlimit:10;}
+    .st7{fill:#1F2326;stroke:#1F2326;stroke-width:2;stroke-miterlimit:10;}
+    .st8{fill:#1F2326;stroke:#1F2326;stroke-width:5;stroke-miterlimit:10;}
+    .st9{fill:none;stroke:#499CBF;stroke-width:16.5;stroke-linecap:round;stroke-miterlimit:10;}
+    .st10{fill:none;stroke:#2C668C;stroke-width:16.5;stroke-linecap:round;stroke-miterlimit:10;}
+    .st11{fill:none;stroke:#E84242;stroke-width:16.5;stroke-linecap:round;stroke-miterlimit:10;}
+    .st12{fill:#2C3236;stroke:#1F2326;stroke-width:4.5;stroke-miterlimit:10;}
+    .st13{fill:none;stroke:#FF7575;stroke-width:16.5;stroke-linecap:round;stroke-miterlimit:10;}
+    .st14{fill:none;stroke:#0071BC;stroke-width:3;stroke-miterlimit:10;}
+    .st15{fill:#F2F2F2;}
+    .st16{fill:none;}
+    .st17{font-family:'TeXGyreHeros-Regular';}
+    .st18{font-size:20px;}
+    .st19{fill:#E6E6E6;}
+    .st20{font-size:10px;}
+    .st21{font-family:'TeXGyreHeros-Bold';}
+    .st22{font-size:48px;}
+    .st23{font-size:48.0002px;}
+    .st24{fill:none;stroke:#1F2326;stroke-width:4.5;stroke-miterlimit:10;}
+
+#zoom_btn {
+color: #000 !important;
+font-size: 50px;
+z-index: 999;
+font-family: "TeXGyreHeros-Bold", sans-serif;
+position: fixed;
+background: rgba(23,26,28,1);
+background: -moz-linear-gradient(-45deg, rgba(23,26,28,1) 0%, rgba(23,26,28,0.8) 15%, rgba(23,26,28,0.79) 16%, rgba(23,26,28,0.53) 22%, rgba(23,26,28,0.13) 31%, rgba(23,26,28,0) 34%, rgba(23,26,28,0) 39%, rgba(23,26,28,0) 40%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(23,26,28,1)), color-stop(15%, rgba(23,26,28,0.8)), color-stop(16%, rgba(23,26,28,0.79)), color-stop(22%, rgba(23,26,28,0.53)), color-stop(31%, rgba(23,26,28,0.13)), color-stop(34%, rgba(23,26,28,0)), color-stop(39%, rgba(23,26,28,0)), color-stop(40%, rgba(23,26,28,0)));
+background: -webkit-linear-gradient(-45deg, rgba(23,26,28,1) 0%, rgba(23,26,28,0.8) 15%, rgba(23,26,28,0.79) 16%, rgba(23,26,28,0.53) 22%, rgba(23,26,28,0.13) 31%, rgba(23,26,28,0) 34%, rgba(23,26,28,0) 39%, rgba(23,26,28,0) 40%);
+background: -o-linear-gradient(-45deg, rgba(23,26,28,1) 0%, rgba(23,26,28,0.8) 15%, rgba(23,26,28,0.79) 16%, rgba(23,26,28,0.53) 22%, rgba(23,26,28,0.13) 31%, rgba(23,26,28,0) 34%, rgba(23,26,28,0) 39%, rgba(23,26,28,0) 40%);
+background: -ms-linear-gradient(-45deg, rgba(23,26,28,1) 0%, rgba(23,26,28,0.8) 15%, rgba(23,26,28,0.79) 16%, rgba(23,26,28,0.53) 22%, rgba(23,26,28,0.13) 31%, rgba(23,26,28,0) 34%, rgba(23,26,28,0) 39%, rgba(23,26,28,0) 40%);
+background: linear-gradient(135deg, rgba(23,26,28,1) 0%, rgba(23,26,28,0.8) 15%, rgba(23,26,28,0.79) 16%, rgba(23,26,28,0.53) 22%, rgba(23,26,28,0.13) 31%, rgba(23,26,28,0) 34%, rgba(23,26,28,0) 39%, rgba(23,26,28,0) 40%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#171a1c', endColorstr='#171a1c', GradientType=1 );
+width: 100%;
+height: 100%;
+}
+
+.buy_btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 3px;
+  font-family: "TeXGyreHeros-Bold", sans-serif;
+  color: #eee;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  border: solid #eeeeee 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.fat {font-variant: small-caps; font-family: "TeXGyreHeros-Bold", sans-serif;}
+
+.buy_btn:hover {
+  color: #333;
+  background-color: #eee;
+  border: solid #eee 3px;
+}
+
+#zoom_btn p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#text_box {
+    font-size: 60px;
+    line-height: 60px;
+    margin-left: 2%;
+    margin-right: 10%;
+    color: #eee;
+    width: 18%;
+    float: left;
+}
+
+p #blue_dot {
+    color: #499cbf;
+    margin-right: -10px;
+}
+
+p #green_dot {
+    color: #39b54a;
+    margin-right: -10px;
+}
+
+p #red_dot {
+    color: #ff7575;
+    margin-right: -10px;
+}
+
+#text_box #description {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: "TeXGyreHeros-Regular", sans-serif;
+}
+
+#empty_box {
+    width: 32%;
+    background-color: rgba(255,55,0, 0.3);
+    float: left;
+    visibility: hidden;
+}
+
+#btn_box {
+    width: 32%;
+    background-color: rgba(255,0,255, 0.0);
+    float: right;
+    text-align: right;
+    color: #EEE;
+    margin-right: 2%;
+}
+
+.dragscroll {
+    height: auto;
+    overflow: hidden; 
+    cursor: grab; 
+    cursor : -o-grab; 
+    cursor : -moz-grab; 
+    cursor : -webkit-grab;
+    z-index: 1;
+}
+
+
+
+
+#tag_fru {opacity: 1; color: white;}
+body {background-color: #1f2326;}
+
+html {-webkit-font-smoothing: antialiased;}
